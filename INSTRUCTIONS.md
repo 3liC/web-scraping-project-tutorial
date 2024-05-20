@@ -4,9 +4,9 @@ In this project, we are going to obtain and analyze data about Tesla's profit, w
 
 ## Step 1: Install dependencies
 
-Make sure you have the Python `Pandas` and `requests` packages installed to be able to work on the project. In case you do not have the libraries installed, run them in the console:
+Make sure you have the Python `pandas` and `requests` packages installed to be able to work on the project. In case you do not have the libraries installed, run them in the console:
 
-```console
+```bash
 pip install pandas requests
 ```
 
@@ -14,7 +14,7 @@ pip install pandas requests
 
 The download of the HTML of the web page will be done with the `requests` library, as we saw in the module theory.
 
-The web page we want to scrape is the following: https://www.macrotrends.net/stocks/charts/TSLA/tesla/revenue. It collects and stores information about the growth of the company every three months, since June 2009. It stores the text scraped from the web in some variable.
+The web page we want to scrape is the following: [https://ycharts.com/companies/TSLA/revenues](https://ycharts.com/companies/TSLA/revenues). It collects and stores information about the growth of the company every three months, since June 2009. It stores the text scraped from the web in some variable.
 
 
 ## Step 3: Transform the HTML
@@ -23,7 +23,7 @@ The next step to start extracting the information is to transform it into a stru
 
 1. Find all the tables.
 2. Find the table with the quarterly evolution.
-4. Store the data in a DataFrame.
+3. Store the data in a DataFrame.
 
 
 ## Step 4: Process the DataFrame
